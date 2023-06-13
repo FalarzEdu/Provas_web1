@@ -1,0 +1,191 @@
+html {
+    font-family: sans-serif;
+    background-color:  #f8f6f7;
+    min-width: 1000px;
+    font-size: 16px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem calc(50% - 500px);
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+    font-size: 18px;
+}
+
+#logo {
+    display: flex;
+    align-items: end;
+}
+
+#logo :nth-child(1) {
+    color:  #f35926;
+}
+
+#logo :nth-child(2) {
+    color: #fcb929;
+}
+
+#logo :nth-child(3) {
+    color: #00b049;
+}
+
+#logo :nth-child(4) {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.logo_number {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.global_width {
+    width: 1000px;
+    margin: auto;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(../img/barcos.webp);
+    width: auto;
+    height: 22rem;
+    background-size: cover;
+    background-position: center;
+}
+
+#fly_search {
+    width: 1000px;
+    padding: 2rem 1.5rem;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 3.5%;
+}
+
+#fly_search > h2 {
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+#fly_search input {
+    height: 2.2rem;
+    min-width: 15%;
+    flex: 1 1 20%;
+    font-size: 20px;
+}
+
+#fly_search > form {
+    display: flex;
+    gap: 10px;
+}
+
+#fly_search button {
+    text-transform: uppercase;
+    background-color: #ea3d35;
+    border: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    flex: 1 1 20%;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#flight_op_title {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+#flight_options {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    height: 28rem;
+    margin-bottom: 5rem;
+}
+
+#flight_options div p:nth-child(1) {
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+    text-shadow: .1rem .1rem .2rem black;
+}
+
+#flight_options div p:nth-child(2) {
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    text-shadow: .1rem .1rem .2rem black;
+}
+
+#flight_options div button {
+    text-transform: uppercase;
+    padding: .5rem 2.5rem;
+    border-radius: 15px;
+    border: none;
+    box-shadow: .1rem .1rem .2rem black;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.flight_destiny {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+}
+
+#flight_options div:nth-child(1) {
+    background-image: url(../img/rio.webp);
+}
+
+#flight_options div:nth-child(2) {
+    background-image: url(../img/bonito.webp);
+}
+
+#flight_options div:nth-child(3) {
+    background-image: url(../img/sao-paulo.webp);
+}
+
+#flight_options div:nth-child(4) {
+    background-image: url(../img/foz.webp);
+}
+
+#flight_options div:nth-child(5) {
+    background-image: url(../img/maceio.webp);
+}
+
+#flight_options div:nth-child(6) {
+    background-image: url(../img/salvador.webp);
+}
+
+#flight_options div:nth-child(7) {
+    background-image: url(../img/fortaleza.webp);
+}
+
+#flight_options div:nth-child(8) {
+    background-image: url(../img/belo-horizonte.webp);
+}
